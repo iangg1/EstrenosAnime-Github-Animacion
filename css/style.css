@@ -1,0 +1,389 @@
+h1{
+        text-align: center;
+}
+
+.parallaxfondo {
+    background-image: url("../assets/img/Background.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: auto;
+    background-attachment: local;
+}
+
+.parallaxfondochainsawman {
+    background-image: url("../assets/img/BackgroundChainsawman.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: local;
+}
+
+.card__title {
+    text-align: center;
+    font-size: 45px;
+}
+
+.card__title--black{
+    background-color: black;
+}
+
+/* .card__title--img {
+    background-image: url('../assets/img/BackgroundBlueLock.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+  }
+  
+.card__description {
+    text-align: center;
+    margin-top: 15px;
+  } */
+
+.container-area {
+    display: grid;
+    gap: 15px;
+    height: 400px;
+    grid-template-areas: 
+        "header header"
+        "productos publicidad"
+        "footer footer"
+    ;
+    grid-template-columns: 1fr, 2fr;
+    grid-auto-rows: 1fr;
+}
+
+.class__border--grid {
+    border: 3px solid black;
+}
+
+.card__header{
+    grid-area: header;
+}
+
+.card__main{
+    grid-area: productos;
+}
+
+aside{
+    grid-area: publicidad;
+}
+
+footer{
+    grid-area: footer;
+}
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+
+.card__lyrics--white {
+    color: white;
+}
+
+.card__lyrics--black {
+    color:black
+}
+
+.boxModelCM {
+    background-color: rgb(0, 0, 0);
+    width: 650px;
+    padding: 30px 30px 30px 30px;
+    margin: auto;
+    height: 100px;
+    overflow: auto;
+    border-bottom: 5px ridge rgb(255, 255, 255);
+    border-top: 5px ridge rgb(255, 255, 255);
+    border-right: 5px ridge rgb(255, 255, 255);
+    border-left: 5px ridge rgb(255, 255, 255);
+}
+
+button[type="reset"]{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.card__subtitle {
+    text-align: center;
+    font-size: 35px;
+}
+
+.card__ul {
+    display: flex;
+    font-size:0;
+    color: aliceblue;
+    width: 100%;
+    height: 100%;
+}
+ .card__li {
+    width: 12.5%;
+    position:relative;
+    font-size: 30px;
+    background-color: black;
+ }
+
+.boxModelBL {
+    background-color: rgb(0, 0, 0);
+    width: min-content;
+    padding: 30px 30px 30px 30px;
+    margin: auto;
+    height: min-content;
+    overflow: auto;
+    border-bottom: 5px ridge rgb(255, 255, 255);
+    border-top: 5px ridge rgb(255, 255, 255);
+    border-right: 5px ridge rgb(255, 255, 255);
+    border-left: 5px ridge rgb(255, 255, 255);
+}
+
+.parallaxfondobluelock {
+    background-image: url("../assets/img/BackgroundBlueLock.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: local;
+}
+
+
+.parallaxfondojigokuraku{
+    background-image:url("../assets/img/BackgroundJigokuraku.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: local;
+}
+
+.boxblack {
+    background-color: black;
+    display: inline-block;
+}
+
+.boxblack__transparent {
+    background-color: rgba(0, 0, 0, 0.337);
+    display: inline-block;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+.card__center1 {
+    text-align: center;
+    background-color: black;
+    font-size: 35px;
+}
+
+
+.parallaxfondooddtaxi {
+    background-image: url("../assets/img/BackgroundOddTaxi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: local;
+}
+
+.boxModelInicio {
+    background-image: url("../assets/img/BackgroundBoxModelHome.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 800px;
+    padding: 30px 30px 30px 30px;
+    margin: auto;
+    height: 309px;
+    overflow: auto;
+    border-bottom: 5px ridge rgb(255, 255, 255);
+    border-top: 5px ridge rgb(255, 255, 255);
+    border-right: 5px ridge rgb(255, 255, 255);
+    border-left: 5px ridge rgb(255, 255, 255);
+}
+
+.card__lyrics {
+    font-family: 'Bitter', serif;
+}
+
+
+.parallaxfondomadeinabyss{
+    background-image:url("../assets/img/BackgroundMadeInAbyss.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: local;
+}
+
+.parallaxfondospyxfamily {
+    background-image: url("../assets/img/BackgroundSpyFamily.png");
+    background-repeat: initial;
+    background-size: cover;
+    background-position: center;
+    background-attachment: local;
+}
+
+.card__photo {
+    border: rgb(0, 0, 0) 5px solid;
+    background-color: rgba(0, 0, 0, 0.555);
+    width: 80%;
+    margin: auto;
+    height: 400px;
+    line-height: 1.6;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    padding: 20px 20px 20px 20px;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    border-bottom: 5px ridge rgb(0, 0, 0);
+    border-top: 5px ridge rgb(0, 0, 0);
+    border-right: 5px ridge rgb(0, 0, 0);
+    border-left: 5px ridge rgb(0, 0, 0);
+  }
+
+.card__img--left {
+    height: 400px;
+}
+
+.card__title--center {
+    width: 50rem;
+    color: white;
+    font-size: 25px;
+  }
+  
+.parallaxContact {
+    background-image: url("../assets/img/BackgroundContact.png");
+    background-repeat: initial;
+    background-size: cover;
+    background-position: center;
+    background-attachment: local;
+}
+
+.card__img--left2 {
+    height: 187px;
+    width: 550px;
+}
+
+.card__center {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* animation */
+
+.transition {
+    margin-top: 70px
+}
+
+.transition p {
+    width: 700px;
+    padding: 30px 30px 30px 30px;
+    margin: auto;
+    height: 150px;
+    overflow: auto;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    /* transition: width 3s, height 10s; */
+    transition: all 2s
+}
+
+.transition p:hover {
+    width: 700px;
+    padding: 30px 30px 30px 30px;
+    margin: auto;
+    height: 150px;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    /* height: 400px; */
+}
+
+.section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 33%;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    margin: 1.5%;
+}
+
+.box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box .hover {
+    width: 0%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.466);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.hover h3 {
+    color: aliceblue;
+    text-shadow: 1px black;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.box:hover .hover {
+    width: 100%;
+}
+
+.slider {
+    width: 500px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+
+    animation: cambio 20s infinite alternate;
+}
+
+.slider li {
+    width: 500px;
+    list-style: none;
+}
+
+.slider img {
+    width: 500px;
+}
+
+@keyframes cambio {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    40%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    65%{margin-left: -200%;}
+
+    70%{margin-left: -300%;}
+    80%{margin-left: -300%;}
+
+    85%{margin-left: -400%;}
+    100%{margin-left: -400%;}
+}
